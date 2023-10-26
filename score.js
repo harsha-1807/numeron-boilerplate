@@ -7,6 +7,7 @@ function redirect(){
     location.href="./game.html"
     
 }
+
 let sr=document.getElementById("score-board")
 let finalScore = localStorage.getItem("score:");
 sr.textContent= finalScore;

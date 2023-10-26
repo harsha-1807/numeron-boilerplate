@@ -4,6 +4,8 @@ var num2;
 
 let num1box= document.getElementById("number1")
 let num2box= document.getElementById("number2")
+let score = 0;
+
 generate()
 
 
@@ -18,7 +20,8 @@ function generate(){
 
 
 // Iteration 3: Make the options button functional
-let score=0;
+// let score=0;
+
 let greaterthan=document.getElementById("greater-than")
 let equalto=document.getElementById("equal-to")
 let lessThan=document.getElementById("lesser-than")
@@ -79,4 +82,4 @@ function startinterval(){
 }
 startinterval()
 
-localStorage.setitem("score:",score)
+localStorage.setItem("score:", "0")
